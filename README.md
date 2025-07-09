@@ -1,1 +1,4 @@
 # Water-Level-Monitoring-System
+This project is a real-time water level and environment monitoring embedded system built using the STM32F407VGT6 microcontroller. It integrates multiple sensors and output devices to monitor water level, temperature, and humidity, and actively controls outputs based on configurable thresholds. The system employs an ultrasonic sensor for water level detection, a DHT22 sensor for temperature and humidity monitoring, a 16×2 LCD for real-time display, and an HC-05 Bluetooth module to transmit data to a mobile device.
+
+Control actions include activating buzzers when water level or temperature limits are exceeded, indicating water levels via three LEDs, and dynamically setting water level thresholds using a potentiometer. An interrupt-driven user button allows cycling through different display modes on the LCD.
